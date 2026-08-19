@@ -81,7 +81,7 @@ for row_start in range(0, len(cards), 3):
                 """,
                 unsafe_allow_html=True,
             )
-            st.page_link(target, label=f"Open {title}", icon="➜")
+            st.page_link(target, label=f"Open {title}", icon="👉")
             st.write("")
 
 st.write("")
